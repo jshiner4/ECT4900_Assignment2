@@ -13,11 +13,11 @@
         <a-scene inspector-plugin-recast cursor="rayOrigin: mouse">
             <!-- 5. Preload 3D Asset. Indicate its location -->
             <a-assets id="assets">
-                <a-asset-item id="3dEnvironment" src="free_zuk_3d_model/scene.gltf"></a-asset-item>
+                <a-asset-item id="3dEnvironment" src="old_rusty_van/scene.gltf"></a-asset-item>
             </a-assets>
 
             <!--Reference to preloaded asset. Decrease/increase its scale if necessary, position so that it is visible -->
-            <a-entity gltf-model="#3dEnvironment" rotation="0 0 0" position="0 1 -3" scale="0.005 0.005 0.005"></a-entity>
+            <a-entity gltf-model="#3dEnvironment" rotation="0 0 0" position="0 1.2 -3" scale="2 2 2"></a-entity>
 
             <!-- We use a plane to create Nav Mesh. Hide it after using -->
             <a-plane scale="1 1 1" color="#333" width="6" height="6" rotation="-90 0 0" color="black" position="0 0.9 -3">
